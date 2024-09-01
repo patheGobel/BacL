@@ -25,6 +25,7 @@
 
 \usepackage[margin=2cm]{geometry}
 
+\usepackage{makecell}  % Ajoutez ceci dans le préambule
 \begin{document}
 
 \begin{minipage}{0.8\textwidth}
@@ -38,8 +39,18 @@
 \textbf{{\underline{\textcolor{red}{Premier Groupe}}}}
 \end{center}
 
-\section*{\textcolor{red}{\underline{Exercice 1} (0 points) :}}
-\section*{\textcolor{red}{\underline{Exercice 2} (0 points) :}}
-\section*{\textcolor{red}{\underline{Exercice 3} (0 points) :}}
+\section*{\textcolor{red}{\underline{Exercice 1} (6 points) :}}
+Pour chaque item choisir la bonne réponse dans la colonne de droite, sachant qu'une seule réponse est correcte.
+
+Chaque bonne reponse rapporte \textbf{ 01 point}.
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ITEMS}  & \textbf{REPONSES}\\
+\hline
+1. Si les fonctions $f$ et $g$ sont dfinies par $f(x)=\sqrt{x^{2}-9}$ et $g(x)=\frac{x+3}{x-1}$, alors: &
+\makecell{a.$(g\circ f)(2)=4$\\ b.$(f\circ g)(3)=-3$\\c.$(g\circ f)(3)=-3$}\\
+\hline
+\end{tabular}
 
 \end{document}
