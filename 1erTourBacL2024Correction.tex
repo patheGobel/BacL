@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{stmaryrd}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{verbatim}
+
+\usepackage{color, soul}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{tkz-tab}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes.geometric, fit}
+
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{makecell}  % Ajoutez ceci dans le préambule
+\begin{document}
+
+\begin{minipage}{0.8\textwidth}
+	Pathé BA                          
+\end{minipage}
+\begin{minipage}{0.8\textwidth}
+	BAC 2024
+\end{minipage}
+
+\begin{center}
+\textbf{{\underline{\textcolor{green}{Premier Groupe Correction}}}}
+\end{center}
+\section*{\textcolor{green}{\underline{Correction Exercice 1} (4 points) :}}
+Pour chaque item choisir la bonne réponse dans la colonne de droite, sachant qu'une seule réponse est correcte.
+
+Chaque bonne réponse rapporte \textbf{( 01 point)}.
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{ITEMS} & \textbf{REPONSES}\\
+\hline
+\makecell[l]{\textbf{1.} Si les fonctions $f$ et $g$ sont définies par \\ $f(x)=\sqrt{x^{2}-9}$ et $g(x)=\frac{x+3}{x-1}$, alors:} &
+\makecell[l]{\textbf{a.} $(g\circ f)(2)=4$ \\ \textbf{b.} $(f\circ g)(3)=-3$ \\ \textbf{c.} $(g\circ f)(3)=-3$}\\
+\hline
+\makecell[l]{\textbf{2.} Si la fonction $f$ est définie par \\ $f(x)=\frac{e^{x}}{1+e^{x}}$, alors:} &
+\makecell[l]{\textbf{a.} La dérivée de $f$ est $f'(x)=\left(\frac{1}{1+e^{x}}\right)^{2}$ \\ \textbf{b.} Une primitive de $f$ sur $\mathbb{R}$ est\\ $F(x)=\ln(1+e^{x})$ \\ \textbf{c.} $f$ est définie sur $\mathbb{R}\setminus\left\lbrace -1\right\rbrace $}\\ 
+\hline
+\makecell[l]{\textbf{3.} Une radio a commencé à émettre en l'an $2000$\\ avec $5000$ auditeurs. Chaque année elle perd \\ $20\%$ de ses auditeurs, mais elle en accueille $4000$\\ nouveaux. Soit $U_{n}$ le nombre d'auditeurs de la\\ radio en  l'an $2000+n$: } & \makecell[l]{\textbf{a.} $U_{n+1}=0,8U_{n}+4000$. \\ 
+\textbf{b.} $U_{n+1}=0,2U_{n}+4000$. \\ \textbf{c.} $U_{n+1}=0,8U_{n}+5000$. }\\
+\hline
+\makecell[l]{\textbf{3.} On choisit au hasard, successivement et sans\\ remises $3$ jetons d'une caisse qui contient 1 jeton\\ vert, 2 jetons jaunes et 3 jetons rouges.\\ La proabilité de tirer 3 jetons de couleurs différentes est:} & 
+\makecell[l]{\textbf{a.} $\frac{1}{20}$. \\ 
+\textbf{b.} $\frac{3}{10}$. \\ \textbf{c.} $\frac{ A_{1}^{1}\times A_{2}^{1}\times A_{3}^{1}}{ A_{6}^{3} }$. }\\
+\hline
+\end{tabular}
+%\section*{\textcolor{green}{\underline{Correction Exercice 2} (6 points) :}}
+
+%\section*{\textcolor{green}{\underline{Problème (10 points):}}}
+\textcolor{green}{\textbf{1.} Si les fonctions $f$ et $g$ sont définies par  $f(x)=\sqrt{x^{2}-9}$ et $g(x)=\frac{x+3}{x-1}$, alors:}
+
+\textbf{a.} $(g\circ f)(2)=4$
+
+\[
+(g\circ f)(2)=g(f(2)):
+\begin{cases}
+f(2)=\sqrt{2^{2}-9} \text{ impossible }\\
+\end{cases}
+\]
+
+\textbf{b.} $(f\circ g)(3)=-3$
+ \[
+(f\circ g)(3)=f(g(3)):
+\begin{cases}
+g(3)=\frac{6}{2}=3\\
+f(g(3))=f(3)=\sqrt{3^{2}-9}=0 \text{ Pas une bonne réponse }
+\end{cases}
+\]
+\textbf{c.} $(g\circ f)(3)=-3$
+\[
+(g\circ f)(3)=g(f(3)):
+\begin{cases}
+f(3)=\sqrt{3^{2}-9}=0\\
+g(f(3))=g(0)=-3 \text{ C'est une bonne réponse }
+\end{cases}
+\]
+Donc la bonne réponse est \textcolor{green}{\textbf{c.} $(g\circ f)(3)=-3$}
+\end{document}
