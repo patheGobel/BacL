@@ -111,12 +111,45 @@ Donc les bonnes réponses sont \textcolor{green}{\textbf{a}, \textbf{b}}\\
 
 \textcolor{green}{\textbf{3.} Une radio a commencé à émettre en l'an $2000$ avec $5000$ auditeurs. Chaque année elle perd  $20\%$ de ses auditeurs, mais elle en accueille $4000$ nouveaux. Soit $U_{n}$ le nombre d'auditeurs de la radio en  l'an $2000+n$:} 
 
-\textbf{a.} $U_{n+1}=0,8U_{n}+4000$.
+\textbf{Formulation du problème :}
+
+\begin{itemize}
+\item[•] Initialement (en 2000) : $U_{0}=5000$ auditeurs.
+\item[•] Évolution annuelle :
+\begin{itemize}
+\item[•] La radio perd $20\%$ de ses auditeurs existants : elle en conserve donc $80\%$ ou $0,8\times U_{n}$
+\item[•] La radio gagne 4000 nouveaux auditeurs chaque année.
+\end{itemize}
+\end{itemize}
+\textbf{Formule de récurrence :}
+
+On peut exprimer le nombre d'auditeurs de la radio en l'an 2000+n (donc au bout de n années) à l'aide de la relation de récurrence suivante :$U_{n+1}=0,8\times U_{n}+4000$
+
+où $ U_{n} $ représente le nombre d'auditeurs en l'an 2000+n
+
+\textbf{Point de départ :} 
+
+Pour l'année de départ, on a : $U_{0}=5000$
+
+\textbf{Calcul des premières valeurs :}
+
+\begin{itemize}
+\item[•]Année 2001 $U_{1}=0,8\times 5000+4000=8000$
+\item[•]Année 2002 $U_{1}=0,8\times 8000+4000=10400$
+\end{itemize}
+Ainsi de suite, on peut calculer $U_{n}$ pour chaque année.
+
+\textbf{Étude de la suite :}
+
+Cette suite est une suite récurrente linéaire d'ordre 1, avec une partie homogène\\
+$U_{n+1}=0,8\times U_{n}+4000$ et un terme constant +4000.
+
+\textbf{a.} $U_{n+1}=0,8U_{n}+4000$. \textbf{\textcolor{green}{C'est une bonne réponse}}
  
-\textbf{b.} $U_{n+1}=0,2U_{n}+4000$.
+\textbf{b.} $U_{n+1}=0,2U_{n}+4000$. \textbf{\textcolor{green}{C'est pas une bonne réponse}}
 
-\textbf{c.} $U_{n+1}=0,8U_{n}+5000$.
-
+\textbf{c.} $U_{n+1}=0,8U_{n}+5000$. \textbf{\textcolor{green}{C'est pas une bonne réponse}}
+\newpage
 \textcolor{green}{\textbf{4.} On choisit au hasard, successivement et sans remises $3$ jetons d'une caisse qui contient 1 jeton vert, 2 jetons jaunes et 3 jetons rouges. La proabilité de tirer 3 jetons de couleurs différentes est:}
 
 \textbf{a.} $\frac{1}{20}$.
