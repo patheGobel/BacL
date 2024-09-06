@@ -206,11 +206,58 @@ $U_{n+1}=0,8\times U_{n}+4000$ et un terme constant +4000.
 \[x\in ]-\infty; \ln(4)]\]
 \[ \textcolor{green}{\boxed{S=\left] -\infty; \ln(4)\right] }} \]
 \end{enumerate}
-%\item \[ \text{Résoudre dans } \mathbb{R}^{2} \text{ le système }
-%\begin{cases}
-%\ln x + \ln y = \ln 2\\
-%e^{x}\times e^{y}=e^{3}
-%\end{cases}  \textbf{(01,5 point)}\]
+\item \[ \text{Résolvons dans } \mathbb{R}^{2} \text{ le système }
+\begin{cases}
+\ln x + \ln y = \ln 2\\
+e^{x}\times e^{y}=e^{3}
+\end{cases}  \textbf{(01,5 point)}\]
+\[
+\begin{cases}
+\ln x + \ln y = \ln 2\\
+e^{x}\times e^{y}=e^{3}
+\end{cases}\implies
+\begin{cases}
+\ln x + \ln y = \ln 2\\
+\ln\left( e^{x}\times e^{y}\right) =\ln\left( e^{3} \right) 
+\end{cases}\implies
+\begin{cases}
+\ln x + \ln y = \ln 2\\
+x+y = 3 
+\end{cases}
+\]
+
+\[
+\begin{cases}
+\ln x + \ln y = \ln 2\\
+x= 3-y 
+\end{cases}\implies
+\begin{cases}
+\ln (3-y)  + \ln y = \ln 2\\
+x= 3-y 
+\end{cases}\implies
+\begin{cases}
+\ln\left[ (3-y)y\right]  = \ln 2\\
+x= 3-y 
+\end{cases}\implies
+\]
+\[
+\begin{cases}
+(3-y)y  = 2\\
+x= 3-y 
+\end{cases}\implies
+\begin{cases}
+y^{2}-3y-2 = 0\\
+x= 3-y 
+\end{cases}
+\]
+\[\text{En considérant } y^{2}-3y-2 = 0 \text{, Cherchons }\Delta \]
+\[\Delta=17 \]
+\[y=\frac{3-\sqrt{17}}{2}\quad ou \quad y=\frac{3+\sqrt{17}}{2} \]
+\begin{itemize}
+\item Si $y=\frac{3-\sqrt{17}}{2}$, en ramplaçant dans $x= 3-y $, ona: $x=3-\frac{3-\sqrt{17}}{2}\implies x=\frac{3+\sqrt{17}}{2}$
+\item Si $y=\frac{3+\sqrt{17}}{2}$, en ramplaçant dans $x= 3-y $, ona: $x=3-\frac{3+\sqrt{17}}{2}\implies x=\frac{3-\sqrt{17}}{2}$
+\end{itemize}
+\[\textcolor{green}{\boxed{S=\left\lbrace \left(\frac{3+\sqrt{17}}{2}, \frac{3-\sqrt{17}}{2} \right);\left(\frac{3-\sqrt{17}}{2}, \frac{3+\sqrt{17}}{2}\right)   \right\rbrace }}\]
 %\item Résoudre dans $\mathbb{R}^{3}$ :
 %\begin{enumerate}
 %\item \[ \text{Le système }
