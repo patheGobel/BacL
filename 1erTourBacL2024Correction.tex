@@ -258,21 +258,55 @@ x= 3-y
 \item Si $y=\frac{3+\sqrt{17}}{2}$, en ramplaçant dans $x= 3-y $, ona: $x=3-\frac{3+\sqrt{17}}{2}\implies x=\frac{3-\sqrt{17}}{2}$
 \end{itemize}
 \[\textcolor{green}{\boxed{S=\left\lbrace \left(\frac{3+\sqrt{17}}{2}, \frac{3-\sqrt{17}}{2} \right);\left(\frac{3-\sqrt{17}}{2}, \frac{3+\sqrt{17}}{2}\right)   \right\rbrace }}\]
-%\item Résoudre dans $\mathbb{R}^{3}$ :
-%\begin{enumerate}
-%\item \[ \text{Le système }
-%\begin{cases}
-%x-y+z = -2\\
-%2x+y-2z = 6\\
-%x-3y-z=-4
-%\end{cases}  \textbf{(01 point)}\]
+\item Résolvons dans $\mathbb{R}^{3}$ :
+\begin{enumerate}
+\item \[ \text{Le système }
+\begin{cases}
+x-y+z = -2\\
+2x+y-2z = 6\\
+x-3y-z=-4
+\end{cases}  \textbf{(01 point)}\]
+
+\[
+\begin{cases}
+x-y+z = -2\quad L1\\
+2x+y-2z = 6\quad L2\\
+x-3y-z=-4\quad L3
+\end{cases}\text{En considérant L1 comme pivot on a:}
+\begin{cases}
+x-y+z = -2\quad L1\\
+L'2=2L1-L2\\
+L'3=L1-L3
+\end{cases}\text{ donc }
+\]
+
+\[
+\begin{cases}
+x-y+z = -2\quad L1\\
+\quad -3y-2z = -10\quad L'2\\
+\quad\quad 2y+2z =-2\quad L'3
+\end{cases}\text{En choisissant } L'2 \text{ comme pivot on a:}
+\begin{cases}
+x-y+z = -2\quad L1\\
+-3y-2z = 6\quad L'2\\
+L''3=L'2+L'3
+\end{cases}\text{donc}
+\]
+
+\[
+\begin{cases}
+x-y+z = -2\quad L1\\
+-3y-2z = -10\quad L'2\\
+\quad y\quad\quad\quad=12
+\end{cases}
+\]
 %\item \[ \text{En déduire la résolution du système }
 %\begin{cases}
 %\ln x-\ln y+\ln z = -2\\
 %\ln x^{2}+\ln y-\ln z^{2} = 6\\
 %\ln x-\ln y^{3}-\ln z=-4
 %\end{cases}  \textbf{(01 point)}\]
-%\end{enumerate}
+\end{enumerate}
 \end{enumerate}
 %\section*{\textcolor{green}{\underline{Problème (10 points):}}}
 \end{document}
