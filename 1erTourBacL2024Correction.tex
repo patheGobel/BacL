@@ -369,13 +369,20 @@ Les bornes de $Df$ sont $0$ et $+\infty$
 \begin{itemize}
 \item En $0$
 \[
-\lim_{x \to 0^{+}}f(x)=\lim_{x \to 0^{+}}\frac{1+\ln x}{x}=\lim_{x \to 0^{+}}\frac{1}{x}+\frac{\ln(x)}{x}:\begin{cases}
+\lim_{x \to 0^{+}}f(x)=\lim_{x \to 0^{+}}\frac{1+\ln x}{x}=\lim_{x \to 0^{+}}\frac{1}{x}\left( 1+\ln x\right) :\begin{cases}
 \lim_{x \to 0^{+}}\frac{1}{x}=+\infty\\
-\lim_{x \to 0^{+}}\frac{\ln(x)}{x}=0
-\end{cases} \text{ Par Somme,}
+\lim_{x \to 0^{+}}1+\ln x=-\infty
+\end{cases} \text{ Par produit,}
 \]
-$$\textcolor{green}{\boxed{\lim_{x \to 0^{+}}f(x)=+\infty}}$$
+$$\textcolor{green}{\boxed{\lim_{x \to 0^{+}}f(x)=-\infty}}$$
 %\item En $+\infty$
+%\[
+%\lim_{x \to +\infty}f(x)=\lim_{x \to +\infty}\frac{1+\ln x}{x}=\lim_{x \to +\infty}\frac{1}{x}+\frac{\ln(x)}{x}:%%\begin{cases}
+%\lim_{x \to +\infty}\frac{1}{x}=0\\
+%\lim_{x \to +\infty}\frac{\ln(x)}{x}=0
+%\end{cases} \text{ Par Somme,}
+%\]
+%$$\textcolor{green}{\boxed{\lim_{x \to 0^{+}}f(x)=0}}$$
 \end{itemize}
 %\item[b.] Iterpréter graphiquement les résultats obtenus. \textbf{(01 point)}
 \end{itemize}
