@@ -448,7 +448,14 @@ $F$ est une primitive de $f$ ssi $F'=f$
 $F'(x)=\frac{\ln x}{x}+\frac{1}{x}=\frac{\ln x + 1 }{x}=f(x).$
 
 Donc  $F$ est bien une primitive de $f$
-%\item[b.] Calculer en $cm^{2}$ l'aire $\mathscr{A}$ du domaine plan délimité par la courbe $(\mathscr{Cf})$, l'axe des abscisses, ainsi que les droites $(D_{1}): x=1$ et $(D_{2}): x=e$. \textbf{(01 point)}
+\item[b.] Calculons en $cm^{2}$ l'aire $\mathscr{A}$ du domaine plan délimité par la courbe $(\mathscr{Cf})$, l'axe des abscisses, ainsi que les droites $(D_{1}): x=1$ et $(D_{2}): x=e$. \textbf{(01 point)}
+\begin{align*}
+\int_{1}^{e}f(x)&=\left[F'(x) \right]_{1}^{e}\\
+ 								&= F(e)-F(1)\\
+ 								&= \frac{1}{2}(\ln e)^{2}+\ln e-\left[\frac{1}{2}(\ln 1)^{2}+\ln 1 \right]\\
+ 								&=\frac{3}{2}
+\end{align*}
+$$\textcolor{green}{\boxed{\int_{1}^{e}f(x)=\frac{3}{2}}}$$
 \end{itemize}
 \end{enumerate}
 \end{document}
